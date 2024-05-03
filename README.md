@@ -2141,3 +2141,33 @@ public class UpdownMain {
     }
 }
 ```
+
+```
+class One{
+	int a, b;
+	public One(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	public void print() {
+		System.out.println(a+b);
+	}
+}
+class Two extends One{
+	int a = 3;
+	public Two(int c, int d) {
+		super(c, c+1);
+	}
+	public void print() {
+		System.out.println(a * a);
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		One one = new Two(10, 3);
+		one.print();	
+	}
+}
+
+```
