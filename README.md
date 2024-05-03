@@ -2143,6 +2143,7 @@ public class UpdownMain {
 ```
 
 ```
+
 class One{
 	int a, b;
 	public One(int a, int b) {
