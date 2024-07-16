@@ -14,8 +14,7 @@
 * : 곱셈
 / : 나눗셈
 % : 나머지
-java
-코드 복사
+
 int a = 10;
 int b = 5;
 
@@ -33,8 +32,8 @@ System.out.println("a % b = " + (a % b)); // 0
 < : 작음
 >= : 크거나 같음
 <= : 작거나 같음
-java
-코드 복사
+
+
 int a = 10;
 int b = 5;
 
@@ -50,8 +49,8 @@ System.out.println("a <= b: " + (a <= b)); // false
 && : 논리 AND
 || : 논리 OR
 ! : 논리 NOT
-java
-코드 복사
+
+
 boolean x = true;
 boolean y = false;
 
@@ -68,8 +67,8 @@ System.out.println("!x: " + (!x)); // false
 << : 왼쪽 시프트
 >> : 오른쪽 시프트
 >>> : 논리적 오른쪽 시프트
-java
-코드 복사
+
+
 int a = 5;  // 0101
 int b = 3;  // 0011
 
@@ -95,8 +94,8 @@ System.out.println("a >>> 1: " + (a >>> 1)); // 2 (0010)
 <<= : 왼쪽 시프트 후 대입
 >>= : 오른쪽 시프트 후 대입
 >>>= : 논리적 오른쪽 시프트 후 대입
-java
-코드 복사
+
+
 int a = 10;
 
 a += 5;  // a = a + 5
@@ -129,8 +128,8 @@ System.out.println("max: " + max); // 20
 인스턴스 확인 연산자 (instanceof)
 객체가 특정 클래스의 인스턴스인지 확인합니다.
 
-java
-코드 복사
+
+
 String str = "Hello";
 boolean isString = str instanceof String;
 System.out.println("str instanceof String: " + isString); // true
