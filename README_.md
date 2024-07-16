@@ -27,8 +27,6 @@ boolean: true 또는 false 값을 가짐
 변수 선언
 변수를 선언할 때는 자료형과 변수명을 지정합니다.
 
-java
-코드 복사
 int number;  // 정수형 변수 number 선언
 double price;  // 실수형 변수 price 선언
 char letter;  // 문자형 변수 letter 선언
@@ -36,8 +34,6 @@ boolean isValid;  // 논리형 변수 isValid 선언
 변수 초기화
 변수를 선언하면서 동시에 초기화할 수 있습니다.
 
-java
-코드 복사
 int number = 10;  // 정수형 변수 number 선언 및 초기화
 double price = 99.99;  // 실수형 변수 price 선언 및 초기화
 char letter = 'A';  // 문자형 변수 letter 선언 및 초기화
@@ -51,8 +47,6 @@ boolean isValid = true;  // 논리형 변수 isValid 선언 및 초기화
 인스턴스 변수(Instance Variable): 클래스의 인스턴스(객체)가 생성될 때마다 인스턴스 변수도 함께 생성됩니다. 클래스의 메소드들 사이에서 공유할 수 있습니다.
 클래스 변수(Class Variable): static 키워드를 사용하여 선언하며, 클래스 레벨에서 공유되는 변수입니다. 모든 인스턴스가 같은 값을 공유합니다.
 예제
-java
-코드 복사
 public class Example {
     // 클래스 변수
     static int classVariable = 10;
